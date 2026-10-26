@@ -31,7 +31,7 @@ SERVICES = [  # slug, label
 ]
 BOROS = [('brooklyn-junk-removal', 'Brooklyn'), ('queens-junk-removal', 'Queens'), ('manhattan-junk-removal', 'Manhattan'),
          ('bronx-junk-removal', 'The Bronx'), ('staten-island-junk-removal', 'Staten Island')]
-NAV_404 = [(s, l.replace('&amp;', '&')) for s, l in SERVICES] + [(s, f'Junk removal in {b}') for s, b in BOROS]
+NAV_404 = [(s, l.replace('&amp;', '&')) for s, l in SERVICES] + [(s, f'Junk removal in {b.replace("The Bronx", "the Bronx")}') for s, b in BOROS]
 
 
 # ---------- small HTML helpers (homepage components) ----------
