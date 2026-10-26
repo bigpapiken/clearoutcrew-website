@@ -1,0 +1,3 @@
+dist/
+site/*.html
+__pycache__/
