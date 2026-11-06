@@ -1,4 +1,4 @@
-"""Build the service and borough pages for The Clear Out Crew.
+"""Build the service and borough pages for JPM Junk Removal Co.
 
     python3 tools/build_pages.py
 
@@ -89,9 +89,9 @@ def page(pg):
         {"@type": "Service", "@id": url + "#service", "name": pg['service_name'], "serviceType": pg['service_type'],
          "url": url, "description": pg['desc'], "provider": {"@id": f"{D}/#business"},
          "areaServed": pg['area_served']},
-        {"@type": "WebSite", "@id": f"{D}/#website", "url": f"{D}/", "name": "The Clear Out Crew", "publisher": {"@id": f"{D}/#business"}},
-        {"@type": "LocalBusiness", "@id": f"{D}/#business", "name": "The Clear Out Crew", "url": f"{D}/",
-         "telephone": TEL, "email": "theclearoutcrew718@gmail.com", "image": f"{D}/img/og-image.jpg"},
+        {"@type": "WebSite", "@id": f"{D}/#website", "url": f"{D}/", "name": "JPM Junk Removal Co.", "publisher": {"@id": f"{D}/#business"}},
+        {"@type": "LocalBusiness", "@id": f"{D}/#business", "name": "JPM Junk Removal Co.", "url": f"{D}/",
+         "telephone": TEL, "email": "jpmjunkco@gmail.com", "image": f"{D}/img/og-image.jpg"},
     ]
     if pg.get('faq'):
         graph.append({"@type": "FAQPage", "@id": url + "#faq", "mainEntity": [
@@ -116,12 +116,12 @@ def page(pg):
 <title>{pg['title']}</title>
 <meta name="description" content="{esc(pg['desc'])}">
 <link rel="canonical" href="{url}">
-<meta name="theme-color" content="#151513">
+<meta name="theme-color" content="#0b0d10">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/img/icon-192.png" sizes="192x192" type="image/png">
 <link rel="apple-touch-icon" href="/img/icon-180.png">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="The Clear Out Crew">
+<meta property="og:site_name" content="JPM Junk Removal Co.">
 <meta property="og:title" content="{pg['title']}">
 <meta property="og:description" content="{esc(pg['desc'])}">
 <meta property="og:url" content="{url}">
@@ -152,7 +152,7 @@ def page(pg):
         <h1 id="hero-title">{pg['h1']}</h1>
         <p class="lede">{pg['lede']}</p>
         <div class="hero-actions">
-          <a class="btn btn-yellow" href="/#quote">{pg.get('cta', 'Get a free quote')}</a>
+          <a class="btn btn-brand" href="/#quote">{pg.get('cta', 'Get a free quote')}</a>
           <a class="btn btn-line" href="tel:{TEL}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2"/></svg>Call {PHONE}</a>
         </div>
         <ul class="proof">{proof}</ul>
@@ -189,15 +189,15 @@ def not_found():
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Page not found | The Clear Out Crew</title>
-<meta name="description" content="That page doesn't exist. Find junk removal services and the boroughs The Clear Out Crew covers.">
+<title>Page not found | JPM Junk Removal Co.</title>
+<meta name="description" content="That page doesn't exist. Find junk removal services and the boroughs JPM Junk Removal Co. covers.">
 <meta name="robots" content="noindex">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/img/icon-192.png" sizes="192x192" type="image/png">
 {''.join(head_css)}
 </head>
 <body>
-<header><div class="wrap"><a href="/"><img src="/img/logo.webp" srcset="/img/logo-320.webp 320w, /img/logo-640.webp 640w, /img/logo.webp 900w" sizes="118px" alt="The Clear Out Crew home" width="900" height="321"></a><a class="back" href="/">Back to site</a></div></header>
+<header><div class="wrap"><a href="/"><img src="/img/logo-mark.webp" srcset="/img/logo-mark-200.webp 200w, /img/logo-mark.webp 400w" sizes="64px" alt="JPM Junk Removal Co. home" width="400" height="313"></a><a class="back" href="/">Back to site</a></div></header>
 <main class="wrap">
 <h1>Page not found</h1>
 <p class="meta">That page doesn't exist or has moved.</p>
@@ -205,7 +205,7 @@ def not_found():
 <h2>Popular pages</h2>
 <ul>{links}</ul>
 </main>
-<footer class="wrap">© 2026 The Clear Out Crew · <a href="tel:{TEL}">{PHONE}</a> · <a href="mailto:theclearoutcrew718@gmail.com">theclearoutcrew718@gmail.com</a><br><a href='/privacy'>Privacy Policy</a> · <a href='/terms'>Terms of Use</a> · <a href='/accessibility'>Accessibility</a></footer>
+<footer class="wrap">© 2026 JPM Junk Removal Co. · <a href="tel:{TEL}">{PHONE}</a> · <a href="mailto:jpmjunkco@gmail.com">jpmjunkco@gmail.com</a><br><a href='/privacy'>Privacy Policy</a> · <a href='/terms'>Terms of Use</a> · <a href='/accessibility'>Accessibility</a></footer>
 </body>
 </html>
 """

@@ -89,7 +89,7 @@ def source(*keys, note='Rules from the NYC Department of Sanitation (DSNY), chec
 
 def hero_pair():
     return ('<div class="hero-photos">'
-            '<figure class="ph before" style="margin:0" tabindex="0" data-side="before"><img src="/img/apt-before-1200.webp" srcset="/img/apt-before-640.webp 640w, /img/apt-before-800.webp 800w, /img/apt-before-1200.webp 1200w" sizes="(max-width:860px) 86vw, 44vw" alt="Apartment room before a Clear Out Crew cleanout, stacked with moving boxes, a shopping cart and furniture" width="1200" height="953" fetchpriority="high"><span class="tag tag-before">Before</span></figure>'
+            '<figure class="ph before" style="margin:0" tabindex="0" data-side="before"><img src="/img/apt-before-1200.webp" srcset="/img/apt-before-640.webp 640w, /img/apt-before-800.webp 800w, /img/apt-before-1200.webp 1200w" sizes="(max-width:860px) 86vw, 44vw" alt="Apartment room before a JPM cleanout, stacked with moving boxes, a shopping cart and furniture" width="1200" height="953" fetchpriority="high"><span class="tag tag-before">Before</span></figure>'
             '<figure class="ph after" style="margin:0" tabindex="0" data-side="after"><img src="/img/apt-after-640.webp" alt="The same apartment after the cleanout, empty with clean parquet floors" width="640" height="472"><span class="tag tag-after">After</span></figure>'
             '</div>')
 
@@ -115,7 +115,7 @@ PAGES = []
 # =====================================================================
 PAGES.append(dict(
     slug='furniture-appliance-removal', crumb='Furniture & appliance removal',
-    title='Furniture &amp; Appliance Removal NYC | The Clear Out Crew',
+    title='Furniture &amp; Appliance Removal NYC | JPM Junk Removal Co.',
     desc="Couch, mattress, fridge and washer removal across NYC's five boroughs. We do the lifting and haul it away. Send photos for a free estimate.",
     service_name='Furniture and appliance removal', service_type='Furniture removal', area_served=ALL_BOROS,
     h1='Furniture &amp; appliance <span class="y">removal</span>',
@@ -172,7 +172,7 @@ PAGES.append(dict(
 
 PAGES.append(dict(
     slug='apartment-cleanouts', crumb='Apartment & house cleanouts',
-    title='Apartment &amp; House Cleanouts NYC | The Clear Out Crew',
+    title='Apartment &amp; House Cleanouts NYC | JPM Junk Removal Co.',
     desc='Full or partial apartment and house cleanouts in all five boroughs: move-outs, rentals, walk-ups, basements and yards. Send photos for a free estimate.',
     service_name='Apartment and house cleanouts', service_type='Apartment cleanout', area_served=ALL_BOROS,
     h1='Apartment &amp; house <span class="y">cleanouts</span>',
@@ -216,7 +216,7 @@ PAGES.append(dict(
 
 PAGES.append(dict(
     slug='estate-cleanouts', crumb='Estate cleanouts',
-    title='Estate Cleanouts in NYC | The Clear Out Crew',
+    title='Estate Cleanouts in NYC | JPM Junk Removal Co.',
     desc='Estate cleanouts for families, estate representatives and real estate pros in all five boroughs. Houses and apartments emptied. Free estimates.',
     service_name='Estate cleanouts', service_type='Estate cleanout', area_served=ALL_BOROS,
     h1='Estate <span class="y">cleanouts</span>',
@@ -255,7 +255,7 @@ PAGES.append(dict(
 
 PAGES.append(dict(
     slug='storage-unit-cleanouts', crumb='Storage unit cleanouts',
-    title='Storage Unit Cleanouts NYC | The Clear Out Crew',
+    title='Storage Unit Cleanouts NYC | JPM Junk Removal Co.',
     desc="Stop paying for a storage unit full of things you don't need. We clear out storage units across NYC. Send one photo for a free estimate.",
     service_name='Storage unit cleanouts', service_type='Storage unit cleanout', area_served=ALL_BOROS,
     h1='Storage unit <span class="y">cleanouts</span>',
@@ -299,7 +299,7 @@ PAGES.append(dict(
 
 PAGES.append(dict(
     slug='commercial-junk-removal', crumb='Commercial junk removal',
-    title='Commercial Junk Removal NYC | The Clear Out Crew',
+    title='Commercial Junk Removal NYC | JPM Junk Removal Co.',
     desc='Office furniture, business equipment and commercial cleanouts across NYC. One-off jobs, recurring work and subcontracting. Free estimates.',
     service_name='Commercial junk removal', service_type='Commercial junk removal', area_served=ALL_BOROS,
     h1='Commercial junk <span class="y">removal</span>',
@@ -331,7 +331,7 @@ PAGES.append(dict(
              '<div class="split"><h2 id="sub-title">Extra capacity for haulers</h2><div class="prose">'
              '<p>Waste management and hauling companies sometimes have more jobs than trucks. We take subcontracted work, from single cleanouts to high-volume projects.</p>'
              '<p>Send the location, the volume, the timing and how you want the job handled. We\'ll tell you what we can take on.</p>'
-             '<p><a class="btn btn-yellow" href="/#quote" style="margin-top:6px">Talk to us about subcontracting</a></p>'
+             '<p><a class="btn btn-brand" href="/#quote" style="margin-top:6px">Talk to us about subcontracting</a></p>'
              '</div></div>', dark=True),
         band('how', 'how-title', head('how-title', 'How it works', 'For businesses, photos plus a deadline is the fastest way to a price.') + steps([
             ('Tell us about the space', 'Send photos, the address and what needs to go. Include building rules or loading dock details.'),
@@ -351,7 +351,7 @@ PAGES.append(dict(
 
 PAGES.append(dict(
     slug='construction-debris-removal', crumb='Construction debris removal',
-    title='Construction Debris Removal NYC | The Clear Out Crew',
+    title='Construction Debris Removal NYC | JPM Junk Removal Co.',
     desc='Renovation debris removal in NYC: wood, drywall, old cabinets and other accepted materials, for homeowners, contractors and property managers.',
     service_name='Construction debris removal', service_type='Construction debris removal', area_served=ALL_BOROS,
     h1='Construction debris <span class="y">removal</span>',
@@ -396,7 +396,7 @@ PAGES.append(dict(
 
 PAGES.append(dict(
     slug='property-management-cleanouts', crumb='Property & real estate cleanouts',
-    title='Landlord &amp; Real Estate Cleanouts NYC | The Clear Out Crew',
+    title='Landlord &amp; Real Estate Cleanouts NYC | JPM Junk Removal Co.',
     desc='Rental turnovers, vacant units, eviction cleanouts and pre-sale cleanouts for NYC property managers, landlords and real estate agents.',
     service_name='Property management and real estate cleanouts', service_type='Property cleanout', area_served=ALL_BOROS,
     h1='Property &amp; real estate <span class="y">cleanouts</span>',
@@ -430,7 +430,7 @@ PAGES.append(dict(
              '<p>Send photos of the unit, the address and your deadline. We\'ll get back to you with a price.</p>'
              '<p>For buildings with ongoing needs, we can take on recurring work and schedule it around your team, from one turnover a month to several units at once.</p>'
              '<p>Working in a building with rules for vendors, like elevator reservations or insurance paperwork? Include them in your request so they\'re sorted out before the job.</p>'
-             '<p><a class="btn btn-yellow" href="/#quote" style="margin-top:6px">Talk to us about your property</a></p>'
+             '<p><a class="btn btn-brand" href="/#quote" style="margin-top:6px">Talk to us about your property</a></p>'
              '</div></div>', dark=True),
         related('property-management-cleanouts'),
     ],
@@ -476,7 +476,7 @@ S = lambda slug: f'/{slug}/'
 
 PAGES.append(boro_page(
     'brooklyn-junk-removal', 'Brooklyn',
-    'Junk Removal Brooklyn, NY | The Clear Out Crew',
+    'Junk Removal Brooklyn, NY | JPM Junk Removal Co.',
     'Junk removal and cleanouts in Brooklyn: brownstones, walk-ups, basements and storefronts. Furniture, appliances and full cleanouts. Free estimates.',
     'Brownstone basements, fourth-floor walk-ups, storefronts and family houses. We clear out furniture, appliances and whole properties across Brooklyn. Send a few photos for a free estimate.',
     [('Brownstone &amp; walk-up jobs', 'Furniture and boxes carried down narrow stairs and out over the stoop.'),
@@ -506,7 +506,7 @@ PAGES.append(boro_page(
 
 PAGES.append(boro_page(
     'queens-junk-removal', 'Queens',
-    'Junk Removal Queens, NY | The Clear Out Crew',
+    'Junk Removal Queens, NY | JPM Junk Removal Co.',
     'Junk removal and cleanouts in Queens: houses, basements, garages, co-ops and garden apartments. Furniture, appliances and estates. Free estimates.',
     'Detached houses with full basements, garden apartments, co-ops and storefronts. We haul furniture and appliances and clear out whole properties across Queens. Send a few photos for a free estimate.',
     [('House &amp; basement cleanouts', 'Full basements, attics and garages in Queens houses.', S('apartment-cleanouts')),
@@ -535,7 +535,7 @@ PAGES.append(boro_page(
 
 PAGES.append(boro_page(
     'manhattan-junk-removal', 'Manhattan',
-    'Junk Removal Manhattan, NY | The Clear Out Crew',
+    'Junk Removal Manhattan, NY | JPM Junk Removal Co.',
     'Junk removal and apartment cleanouts in Manhattan: doorman buildings, walk-ups, offices and storage. Service elevator rules handled. Free estimates.',
     'Doorman buildings with service elevator rules, fifth-floor walk-ups, offices and storage rooms. We clear out furniture, appliances and whole apartments across Manhattan. Send photos for a free estimate.',
     [('Apartment cleanouts', 'Studios to large units, in elevator buildings and walk-ups.', S('apartment-cleanouts')),
@@ -565,7 +565,7 @@ PAGES.append(boro_page(
 
 PAGES.append(boro_page(
     'bronx-junk-removal', 'Bronx',
-    'Junk Removal Bronx, NY | The Clear Out Crew',
+    'Junk Removal Bronx, NY | JPM Junk Removal Co.',
     'Junk removal and cleanouts in the Bronx: prewar buildings, co-ops, houses and businesses. Furniture, appliances and full cleanouts. Free estimates.',
     'Prewar elevator buildings, big co-ops, two-family houses and businesses. We haul furniture and appliances and clear out whole properties across the Bronx. Send a few photos for a free estimate.',
     [('Apartment cleanouts', 'Prewar and co-op apartments, full or partial.', S('apartment-cleanouts')),
@@ -596,7 +596,7 @@ PAGES.append(boro_page(
 
 PAGES.append(boro_page(
     'staten-island-junk-removal', 'Staten Island',
-    'Junk Removal Staten Island, NY | The Clear Out Crew',
+    'Junk Removal Staten Island, NY | JPM Junk Removal Co.',
     'Junk removal and cleanouts on Staten Island: houses, garages, basements, sheds and yards. Furniture, appliances and estates. Free estimates.',
     'Single-family houses, garages, basements, sheds and backyards. We haul furniture and appliances and clear out whole properties across Staten Island. Send a few photos for a free estimate.',
     [('Garage &amp; shed cleanouts', 'Years of tools, boxes and things nobody uses anymore.', S('apartment-cleanouts')),
