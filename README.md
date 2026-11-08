@@ -1,6 +1,6 @@
 # The Clear Out Crew – Website
 
-Live site: https://clearoutcrewnyc.com
+Live site: https://jpmjunkco.com
 Built by Columbian Kenny Inc. SEO update (service + borough pages, performance, schema) by War-Buck Marketing, October 2026.
 
 ## Structure

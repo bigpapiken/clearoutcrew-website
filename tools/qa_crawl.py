@@ -8,7 +8,7 @@ from html.parser import HTMLParser
 from urllib.parse import urljoin, urlparse
 
 BASE = sys.argv[1] if len(sys.argv) > 1 else 'http://127.0.0.1:8871'
-PROD = 'https://clearoutcrewnyc.com'
+PROD = 'https://jpmjunkco.com'
 problems, info = [], []
 
 
@@ -122,7 +122,7 @@ for l in locs:
     if l not in indexable: problems.append(f'sitemap URL not an indexable crawled page: {l}')
 for u in indexable - set(locs): problems.append(f'indexable page missing from sitemap: {u}')
 st, rb, _ = get(BASE + '/robots.txt')
-if 'Sitemap: https://clearoutcrewnyc.com/sitemap.xml' not in rb: problems.append('robots.txt sitemap line missing')
+if 'Sitemap: https://jpmjunkco.com/sitemap.xml' not in rb: problems.append('robots.txt sitemap line missing')
 # 404 behaviour
 st, b404, _ = get(BASE + '/definitely-not-a-page')
 if st != 404: problems.append(f'404 page returns {st}')

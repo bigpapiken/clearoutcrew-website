@@ -1,5 +1,5 @@
 # The Clear Out Crew: SEO audit & implementation report
-clearoutcrewnyc.com · work done 2026-10-25 · not yet deployed (waiting on Netlify access)
+jpmjunkco.com · work done 2026-10-25 · not yet deployed (waiting on Netlify access)
 
 ## A. Executive summary
 The developer's site was already technically solid (title, canonical, LocalBusiness schema,

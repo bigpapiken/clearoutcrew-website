@@ -13,7 +13,7 @@ sys.path.insert(0, str(R / 'tools'))
 import pages as P  # noqa: E402
 
 SITE = R / 'site'
-D = 'https://clearoutcrewnyc.com'
+D = 'https://jpmjunkco.com'
 PHONE, TEL = '(917) 533-3220', '+19175333220'
 HOME = (SITE / 'index.html').read_text()
 
@@ -213,7 +213,7 @@ def not_found():
 
 
 def sitemap(urls):
-    lastmod = '2026-10-25'
+    lastmod = '2026-11-07'
     body = ''.join(f'  <url><loc>{u}</loc><lastmod>{lastmod}</lastmod></url>\n' for u in urls)
     (SITE / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + body + '</urlset>\n')
 
