@@ -5,7 +5,7 @@
 would remove the reCAPTCHA, the accessibility page and the clean URLs.
 
 ## Where this came from
-- `site/` started as an exact snapshot of https://clearoutcrewnyc.com on 2026-10-25
+- `site/` started as an exact snapshot of https://jpmjunkco.com on 2026-10-25
   (the live site was newer than the zip Jack sent), then optimized. `git log` shows every step.
 - The live HTML is Netlify's *processed* output. The quote form was restored to Netlify's
   *source* markup (`data-netlify="true"`, `netlify-honeypot`, `data-netlify-recaptcha`) so
@@ -28,7 +28,7 @@ New pages pull their CSS/header/footer from `site/index.html`, so edit the homep
 4. Netlify > Forms: confirm the `quote` form is still listed and notifications still email Jack.
 
 ## After deploy
-- Google Search Console: resubmit `https://clearoutcrewnyc.com/sitemap.xml` and request indexing
+- Google Search Console: resubmit `https://jpmjunkco.com/sitemap.xml` and request indexing
   for the homepage and the 12 new pages. The current GSC property belongs to the developer;
   ask them to add Buck as an owner, or verify a new Domain property with a TXT record in Namecheap.
 - Bing Webmaster Tools: import from GSC, submit the sitemap.

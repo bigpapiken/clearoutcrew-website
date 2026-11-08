@@ -13,7 +13,7 @@ sys.path.insert(0, str(R / 'tools'))
 import pages as P  # noqa: E402
 
 SITE = R / 'site'
-D = 'https://clearoutcrewnyc.com'
+D = 'https://jpmjunkco.com'
 PHONE, TEL = '(917) 533-3220', '+19175333220'
 HOME = (SITE / 'index.html').read_text()
 

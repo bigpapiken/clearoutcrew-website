@@ -22,3 +22,28 @@
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
     Access-Control-Allow-Origin = "*"
+
+# Old domain: send every page to the same page on jpmjunkco.com
+[[redirects]]
+  from = "https://clearoutcrewnyc.com/*"
+  to = "https://jpmjunkco.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.clearoutcrewnyc.com/*"
+  to = "https://jpmjunkco.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://clearoutcrewnyc.com/*"
+  to = "https://jpmjunkco.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.clearoutcrewnyc.com/*"
+  to = "https://jpmjunkco.com/:splat"
+  status = 301
+  force = true
